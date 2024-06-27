@@ -1067,7 +1067,7 @@ CHARACTERS = {
 			last_name = "Mustafa_Ismet_Inonu_last_name"
 			ruler = yes ig_leader = yes historical = yes
 			birth_date = 1884.9.24
-			interest_group = ig_armed_forces
+			interest_group = ig_bureaucrats
 			ideology = ideology_elitist
 			culture = cu:turkish
 			traits = {

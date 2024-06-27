@@ -372,7 +372,7 @@ CHARACTERS = {
 			last_name = "celal_bayar_last_name"
 			birth_date = 1883.05.16
 			ig_leader = yes historical = yes
-			interest_group = ig_rural_folk
+			interest_group = ig_petty_bourgeoisie
 			ideology = ideology_elitist
 			culture = cu:turkish
 			traits = {
@@ -386,7 +386,7 @@ CHARACTERS = {
 			last_name = "adnan_menderes_last_name"
 			birth_date = 1899.01.01
 			ig_leader = yes historical = yes
-			interest_group = ig_landowners
+			interest_group = ig_rural_folk
 			ideology = ideology_power_hungry
 			culture = cu:turkish
 			traits = {
@@ -401,7 +401,7 @@ CHARACTERS = {
 			birth_date = 1901.07.20
 			ig_leader = yes historical = yes
 			interest_group = ig_industrialists
-			ideology = ideology_liberal
+			ideology = ideology_elitist
 			culture = cu:turkish
 			traits = {
 				erudite
@@ -414,7 +414,7 @@ CHARACTERS = {
 			last_name = "hikmet_bayur_last_name"
 			birth_date = 1891.01.01
 			ig_leader = yes historical = yes
-			interest_group = ig_bureaucrats
+			interest_group = ig_armed_forces
 			ideology = ideology_elitist
 			culture = cu:turkish
 			traits = {
@@ -426,7 +426,7 @@ CHARACTERS = {
 			last_name = "kasim_gulek_last_name"
 			birth_date = 1905.01.01
 			ig_leader = yes historical = yes
-			interest_group = ig_petty_bourgeoisie
+			interest_group = ig_landowners
 			ideology = ideology_democratic
 			culture = cu:turkish
 			traits = {
@@ -453,7 +453,7 @@ CHARACTERS = {
 			birth_date = 1902.01.01
 			ig_leader = yes historical = yes
 			interest_group = ig_trade_unions
-			ideology = ideology_autocratic
+			ideology = ideology_elitist
 			culture = cu:turkish
 			traits = {
 				erudite
