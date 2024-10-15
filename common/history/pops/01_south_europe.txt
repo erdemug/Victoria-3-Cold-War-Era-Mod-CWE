@@ -431,17 +431,17 @@
 			}
 		}
 	}
-	s:STATE_ISTANBUL = {
+	s:STATE_EASTERN_THRACE = {
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
 				religion = sunni
-				size = 1131483
+				size = 1715560
 			}
 			create_pop = {
 				culture = turkish
 				religion = alevi
-				size = 34994
+				size = 66867
 			}
 			create_pop = {
 				culture = mashriqi
@@ -449,19 +449,24 @@
 			}
 			create_pop = {
 				culture = albanian
-				size = 3081
+				size = 4284
 			}
 			create_pop = {
 				culture = greek
 				size = 67593
 			}
 			create_pop = {
+				culture = bosniak
+				size = 2570
+			}
+			create_pop = {
 				culture = bulgarian
-				size = 2051
+				religion = sunni
+				size = 15979
 			}
 			create_pop = {
 				culture = sephardic
-				size = 28172
+				size = 29205
 			}
 			create_pop = {
 				culture = armenian
@@ -490,37 +495,6 @@
 			create_pop = {
 				culture = italian
 				size = 2060
-			}
-		}
-	}
-	s:STATE_EASTERN_THRACE = {
-		region_state:TUR = {
-			create_pop = {
-				culture = turkish
-				religion = sunni
-				size = 584077
-			}
-			create_pop = {
-				culture = turkish
-				religion = alevi
-				size = 31873
-			}
-			create_pop = {
-				culture = albanian
-				size = 1203
-			}
-			create_pop = {
-				culture = bosniak
-				size = 2570
-			}
-			create_pop = {
-				culture = bulgarian
-				religion = sunni
-				size = 13928
-			}
-			create_pop = {
-				culture = sephardic
-				size = 1033
 			}
 		}
 	}

@@ -54,7 +54,7 @@ COUNTRIES = {
 
 		set_tax_level = medium
 
-		set_market_capital = STATE_ISTANBUL
+		set_market_capital = STATE_EASTERN_THRACE
 		
 		# Laws
 		effect_starting_politics_semi_presidential_republic = yes
@@ -80,6 +80,11 @@ COUNTRIES = {
 		activate_law = law_type:law_medium_anti_corruption
 		activate_law = law_type:law_total_separation
 		activate_law = law_type:law_state_trade_unions
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_nationalist_fp
+		activate_law = law_type:law_strict_policing
+		activate_law = law_type:law_secret_police
+		activate_law = law_type:law_defensive_espionage
 
 		set_institution_investment_level = {
 			institution = institution_schools
@@ -88,7 +93,7 @@ COUNTRIES = {
 
 		set_institution_investment_level = {
 			institution = institution_police
-			level = 2
+			level = 4
 		}
 		
 		#International Memberships

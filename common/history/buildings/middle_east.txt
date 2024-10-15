@@ -1,15 +1,74 @@
 BUILDINGS = {
 	
 	c:TUR = {
-		every_scope_state = { limit = { state_has_sufficient_population = yes }
+		every_scope_state = {
 			 effect_starting_buildings_2 = yes
 		}
-		s:STATE_ISTANBUL = {
+		s:STATE_EASTERN_THRACE = {
 			region_state:TUR = {
 				create_building = {
 					building = "building_hagia_sophia"
 					level = 1
 					reserves = 1
+				}
+				create_building = {  # Bakırköy Bez Fabrikası (State)
+					building = "building_furniture_manufacturies"
+					level = 1
+					reserves = 1
+					activate_production_methods = { "pm_automation_0_building_manufacturing" "pm_organisation_0_building_manufacturing"  "pm_publicly_traded_building_manufacturing" }
+				}
+			}
+		}
+		s:STATE_AYDIN = { # Nazilli Basma Fabrikası (State)
+			region_state:TUR = {
+				create_building = {
+					building = "building_furniture_manufacturies"
+					level = 1
+					reserves = 1
+					activate_production_methods = { "pm_automation_0_building_manufacturing" "pm_organisation_0_building_manufacturing"  "pm_publicly_traded_building_manufacturing" }
+				}
+			}
+		}
+		# Merinos Yünlü Dokuma Fabrikası & Hereke Halı ve İpekli Dokuma Fabrikası & Gemlik Suni İpek Fabrikası (State)
+		s:STATE_HUDAVENDIGAR = { 
+			region_state:TUR = {
+				create_building = {
+					building = "building_furniture_manufacturies"
+					level = 3
+					reserves = 1
+					activate_production_methods = { "pm_automation_0_building_manufacturing" "pm_organisation_0_building_manufacturing"  "pm_publicly_traded_building_manufacturing" }
+				}
+			}
+		}
+		s:STATE_ANKARA = { # Kayseri Bez Fabrikası (State)
+			region_state:TUR = {
+				create_building = {
+					building = "building_furniture_manufacturies"
+					level = 1
+					reserves = 1
+					activate_production_methods = { "pm_automation_0_building_manufacturing" "pm_organisation_0_building_manufacturing"  "pm_publicly_traded_building_manufacturing" }
+				}
+				create_building = { # MKE Silah Fabrikası (State)
+					building = "building_arms_industry"
+					level = 1
+					reserves = 1
+					activate_production_methods = { "pm_automation_0_building_manufacturing" "pm_organisation_0_building_manufacturing"  "pm_publicly_traded_building_manufacturing" }
+				}
+				create_building = { # Ankara Demiryolu Fabrikası (State)
+					building = "building_locomotives_industry"
+					level = 1
+					reserves = 1
+					activate_production_methods = { "pm_automation_0_building_manufacturing" "pm_organisation_0_building_manufacturing"  "pm_publicly_traded_building_manufacturing" }
+				}
+			}
+		}
+		s:STATE_KASTAMONU = { # Karabük Demir Çelik Fabrikaları (State)
+			region_state:TUR = {
+				create_building = {
+					building = "building_steel_mills"
+					level = 5
+					reserves = 1
+					activate_production_methods = { "pm_automation_0_building_manufacturing" "pm_organisation_0_building_manufacturing"  "pm_publicly_traded_building_manufacturing" }
 				}
 			}
 		}
